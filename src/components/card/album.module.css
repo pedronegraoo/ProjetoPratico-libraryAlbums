@@ -1,0 +1,51 @@
+.contentRender {
+  width: 30rem;
+  display: flex;
+
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 15px #000;
+}
+
+.contentRender img {
+  /* width: 20rem; */
+  width: 60%;
+  height: 15rem;
+
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.contentRender div {
+  width: 40%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.contentRender div h2 {
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.contentRender div button {
+  width: 7rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 0.5rem;
+
+  background-color: #1b1a1a;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.contentRender div button:hover {
+  border: 1px solid #f3ff4a;
+}

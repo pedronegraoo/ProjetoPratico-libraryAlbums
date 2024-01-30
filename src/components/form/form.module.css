@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  gap: 2rem;
+}
+
+.form div label {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+}
+
+.form div input {
+  width: 12rem;
+  height: 2.5rem;
+
+  caret-color: #fff;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: #1b1a1a;
+  border: none;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+}
+
+.form button {
+  width: 7rem;
+  border: none;
+  border-radius: 0.5rem;
+
+  background-color: #1b1a1a;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.form button:hover {
+  border: 1px solid #f3ff4a;
+}
